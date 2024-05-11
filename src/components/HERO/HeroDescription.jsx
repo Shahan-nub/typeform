@@ -1,5 +1,7 @@
 import { MdOutlineWeb } from "react-icons/md";
 import Logo from "../ui/Logo";
+import {motion} from "framer-motion";
+
 
 export default function HeroDescription() {
   return (

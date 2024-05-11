@@ -10,7 +10,7 @@ export default function CenterImg() {
     viewport={{once:true}}
     transition={{type:"tween",duration:1}}
     
-    className="shadow-[0_0_50px_1px_#0f1a32] md:shadow-none rounded-2xl md:w-auto h w-[93vw] mt-0 md:mt-10 p-3 md:p-8 bg-gradient-to-r from-[#121525] via-[#1e233e] to-[#121525] overflow-hidden ">
+    className="shadow-[0_0_50px_1px_#0f1a32] md:shadow-none rounded-2xl xl:w-auto h w-[93vw] mt-0 md:mt-10 p-3 md:p-8 bg-gradient-to-r from-[#121525] via-[#1e233e] to-[#121525] overflow-hidden ">
       <Image
         className="rounded-xl h-[25vh] lg:h-[70vh] md:w-full  shadow-[0_0_50px_1px_#0f1a32]"
         src="/assets/hero.png"
