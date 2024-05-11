@@ -5,7 +5,7 @@ import Work from '../WORK/Work'
 
 export default function HomePage() {
   return (
-    <div>
+    <div className='w-screen'>
       <Navbar></Navbar>
       <Hero></Hero>
       <Work></Work>

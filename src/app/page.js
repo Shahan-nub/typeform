@@ -4,7 +4,7 @@ import React from 'react';
 
 const Home = () => {
   return (
-    <div className="container mx-auto overflow-x-hidden">
+    <div className="max-w-[100vw] overflow-x-hidden">
       <HomePage></HomePage>
     </div>
   );

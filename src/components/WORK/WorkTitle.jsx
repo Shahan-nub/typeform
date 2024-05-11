@@ -12,7 +12,7 @@ export default function WorkTitle() {
     whileInView={{y:0,opacity:1}}
     transition={{duration:.45}}
     viewport={{once:true}}
-    className="my-8 md:my-16 relative font-sans font-semibold text-lg md:text-5xl text-white text-center w-full">
+    className="my-8 md:my-16 relative font-sans font-semibold text-lg sm:text-3xl lg:text-5xl text-white text-center w-full">
         <Rainbow></Rainbow>
         <Wave></Wave>
         <Glow pos="left-[7%]"></Glow>

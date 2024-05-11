@@ -3,7 +3,7 @@ import Logo from "../ui/Logo";
 
 export default function HeroDescription() {
   return (
-    <div className="flex flex-col gap-9 md:flex-row w-full py-6 px-6 md:py-6 md:px-12 font-light relative mb-10 md:mb-24">
+    <div className="flex flex-col gap-9 lg:flex-row w-full py-6 px-6 md:py-6 md:px-12 font-light relative mb-10 md:mb-24">
       <div className="bg-gradient-to-r from-glass via-[#1f2131] to-glass rounded-sm flex justify-center items-center gap-5 md:gap-8 py-4 md:py-6 px-5 md:px-7">
         <MdOutlineWeb className="text-red-400 text-[10.5rem] md:text-[5rem]"></MdOutlineWeb>
         <div className="flex flex-col gap-5">

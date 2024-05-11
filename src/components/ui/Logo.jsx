@@ -3,7 +3,7 @@ import { RxStretchVertically } from "react-icons/rx";
 
 export default function Logo() {
   return (
-    <div className="logo font-serif font-semibold md:font-extrabold text-lg md:text-2xl flex flex-col md:flex-row items-center">
+    <div className="logo font-serif font-semibold md:font-extrabold text-lg md:text-2xl flex flex-col lg:flex-row items-center">
       <div className="flex">
         <FaAtlassian className="text-[#4c5cf0]"></FaAtlassian>
         <RxStretchVertically className="font-bold text-[#4c5cf0]" />
