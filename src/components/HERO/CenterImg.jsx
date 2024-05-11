@@ -16,6 +16,7 @@ export default function CenterImg() {
         src="/assets/hero.png"
         height={800}
         width={1800}
+        alt="center"
       ></Image>
     </motion.div>
   );

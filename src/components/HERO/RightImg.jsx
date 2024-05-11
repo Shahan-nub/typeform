@@ -10,6 +10,7 @@ export default function RightImg() {
         src="/assets/hero.png"
         height={800}
         width={1800}
+        alt="right"
       ></Image>
     </div>
   );

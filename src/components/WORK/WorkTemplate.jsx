@@ -21,6 +21,7 @@ export default function WorkTemplate({ id, src, link }) {
           src={src}
           width={280}
           height={570}
+          alt={id}
           className=" w-[80vw] md:w-[35vw] md:h-[110vh] rounded-md hover:scale-[1.03] transition-all duration-300"
         ></Image>
         <h3 className="mt-6 text-gray-400 font-sans text-sm md:text-base">
