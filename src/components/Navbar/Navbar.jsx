@@ -65,7 +65,7 @@ export default function Navbar() {
         </div>
 
         {/* Explore our demos */}
-        <div className="hidden md:inline-block text-base md:text-lg bg-[#4c5cf0] rounded-lg py-2 md:py-3 px-2 md:px-4 cursor-pointer max-h-max">
+        <div className="hidden md:inline-block mr-3 lg:mr-8  text-base md:text-lg bg-[#4c5cf0] rounded-lg py-2 md:py-3 px-2 md:px-4 cursor-pointer max-h-max">
           Explore our demos
         </div>
       </div>
