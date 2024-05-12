@@ -5,13 +5,16 @@ import { motion } from "framer-motion";
 
 export default function WorkTemplate({ id, src, link }) {
   return (
-    <motion.div className="w-max "
+    <motion.div className="group w-max relative"
     
         initial={{scale:.5}}
         whileInView={{scale:1}}
         transition={{duration:.3,type:"tween"}}
         viewport={{once:true}}
     >
+      <div className="rounded-full absolute left-1/2 -translate-x-[50%] top-1/2 -translate-y-[50%] px-5 py-7 bg-color-1 text-white text-lg group-hover:block hidden z-20 cursor-pointer">
+        View
+      </div>
       <Link
         href={link}
         target="_blank"

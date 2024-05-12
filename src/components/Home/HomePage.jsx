@@ -6,7 +6,7 @@ import Work from '../WORK/Work'
 export default function HomePage() {
   return (
     <div className='w-screen'>
-      <Navbar></Navbar>
+      {/* <Navbar></Navbar> */}
       <Hero></Hero>
       <Work></Work>
     </div>

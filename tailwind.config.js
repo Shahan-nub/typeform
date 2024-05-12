@@ -15,6 +15,7 @@ module.exports = {
       colors:{
         "glass":"#121525",
         "color-1":"#6d77ed",
+        "color-2":"#ad4fa1"
       }
     },
   },

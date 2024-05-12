@@ -58,7 +58,7 @@ export default function Navbar() {
         {/* Navbar list item  */}
         <div className="flex items-center gap-4 md:gap-12">
           <Link href="/">Home</Link>
-          <Link href="/">About</Link>
+          <Link href="/about-us">About</Link>
           <Link href="/">Services</Link>
           <Link href="/">Portfolio</Link>
 
