@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
-        'infinite-scroll-mobile': 'infinite-scroll 15s linear infinite',
-
+        'infinite-scroll-mobile': 'infinite-scroll-mobile 15s linear infinite',
+        'infinite-rotate':'infinite-rotate 5s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {
@@ -20,7 +20,11 @@ module.exports = {
         'infinite-scroll-mobile': {
           from: { transform: 'translateX(0)' },
           to: { transform: 'translateX(-100%)' },
-        }
+        },
+        'infinite-rotate':{
+          from:{transform:'rotate(0deg)'},
+          to:{transform:'rotate(360deg)'},
+        },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

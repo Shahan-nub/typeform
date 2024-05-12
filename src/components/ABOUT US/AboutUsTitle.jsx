@@ -17,7 +17,7 @@ export default function AboutUsTitle() {
         viewport={{ once: true }}
         className="my-8 lg:mb-20 relative text-[#e282f3] text-3xl lg:text-7xl"
       >
-        <TbChartDonutFilled></TbChartDonutFilled>
+        <TbChartDonutFilled className=" animate-infinite-rotate"></TbChartDonutFilled>
         <Glow pos="left-16  "></Glow>
       </motion.div>
 
