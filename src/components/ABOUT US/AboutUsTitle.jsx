@@ -35,7 +35,7 @@ export default function AboutUsTitle() {
       whileInView={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.5, delay: 0.2 }}
       viewport={{ once: true }}
-      className="text-gray-400 text-sm lg:text-lg font-normal">
+      className="text-gray-400 text-sm lg:text-lg mt-6 lg:mt-10 font-normal">
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore, odit
         ipsam ut velit ipsum et nesciunt esse adipisci. Quod architecto
         aspernatur molestiae incidunt ad quidem assumenda vel necessitatibus
