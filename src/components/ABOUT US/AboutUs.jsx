@@ -4,6 +4,7 @@ import Glow from "../ui/Glow";
 import AboutUsTitle from "./AboutUsTitle";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import InfiniteSlider from "../ui/InfiniteSlider";
 
 export default function AboutUs() {
   return (
@@ -31,6 +32,7 @@ export default function AboutUs() {
           ></Image>
         </motion.div>
       </div>
+      <InfiniteSlider title="NEXT GEN SMART AI" bg_text_style="text-white bg-glass"></InfiniteSlider>
     </div>
   );
 }
