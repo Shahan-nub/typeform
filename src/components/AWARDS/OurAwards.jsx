@@ -30,7 +30,7 @@ export default function OurAwards() {
 
         {AWARDS.map((obj) => {
           return(
-            <AwardCard num={obj.id} award={obj.award} date={obj.date} org={obj.org}/>
+            <AwardCard key={obj.id} num={obj.id} award={obj.award} date={obj.date} org={obj.org}/>
           )
         })}
       </div>
