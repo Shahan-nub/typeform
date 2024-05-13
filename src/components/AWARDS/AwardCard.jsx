@@ -1,8 +1,15 @@
+"use client"
+import {easeIn, motion} from "framer-motion";
 import { LiaAwardSolid } from "react-icons/lia";
 
 export default function AwardCard({num,award,date,org}) {
   return (
-    <div className="w-[95%] lg:w-[85%] text-start flex items-center justify-between py-5 lg:py-8 text-gray-300 text-xs md:text-lg xl:text-2xl hover:bg-glass hover:scale-105 border-y border-glass transition-all duration-700 px-6 lg:px-12 rounded-sm">
+    <motion.div
+    initial={{y:80,opacity:0}}
+    whileInView={{y:0,opacity:1}}
+    transition={{duration:.4,type:"tween",ease:easeIn}}
+    viewport={{once:true}}
+    className="w-[95%] lg:w-[85%] text-start flex items-center justify-between py-5 lg:py-10 text-gray-300 text-xs md:text-lg xl:text-2xl hover:bg-glass hover:scale-105 border-y border-glass transition-all duration-700 px-6 lg:px-12 rounded-sm">
 
       <div className="flex basis-[25%] items-center gap-4 lg:gap-8">
         <p className="text-xs font-light xl:text-base">{num}.</p>
@@ -15,6 +22,6 @@ export default function AwardCard({num,award,date,org}) {
       </div>
 
       <LiaAwardSolid className="text-5xl lg:text-7xl basis-[15%] "></LiaAwardSolid>
-    </div>
+    </motion.div>
   );
 }
