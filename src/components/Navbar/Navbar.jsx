@@ -60,7 +60,7 @@ export default function Navbar() {
           <Link href="/">Home</Link>
           <Link href="/about-us">About</Link>
           <Link href="/services">Services</Link>
-          <Link href="/">Portfolio</Link>
+          <Link href="http://shahan.vercel.app">Portfolio</Link>
 
         </div>
 

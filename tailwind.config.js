@@ -10,7 +10,7 @@ module.exports = {
       animation: {
         'infinite-scroll': 'infinite-scroll 25s linear infinite',
         'infinite-scroll-mobile': 'infinite-scroll-mobile 15s linear infinite',
-        'infinite-rotate':'infinite-rotate 5s linear infinite',
+        'infinite-rotate':'infinite-rotate 10s linear infinite',
       },
       keyframes: {
         'infinite-scroll': {

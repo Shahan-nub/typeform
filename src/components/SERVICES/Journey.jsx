@@ -1,11 +1,21 @@
+"use client"
 import Image from "next/image";
 import Heading from "../ui/Heading";
 import Button from "../ui/Button";
+import {motion} from "framer-motion";
+
 
 export default function Journey() {
   return (
-    <div className="flex w-full px-5 lg:px-8 justify-between">
-      <div className="basis-[45%] hidden lg:inline-block">
+    <div className="flex w-full my-10  px-5 lg:px-8 justify-between">
+
+      <div className="basis-[45%] hidden lg:flex relative">
+        <motion.div
+        whileInView={{y:500,opacity:[1,1,1,0]}}
+        transition={{duration:1,delay:.3}}
+        viewport={{once:true}}
+        className="absolute w-full h-full bg-color-1 rounded-lg">
+        </motion.div>
         <Image
           src="/assets/Servicesvertical.png"
           alt="services"
@@ -14,7 +24,8 @@ export default function Journey() {
           className="rounded-lg"
         ></Image>
       </div>
-      <div className="basis-[45%] flex flex-col justify-center gap-5 lg:gap-9">
+
+      <div className="lg:basis-[45%] px-10 lg:px-0 flex flex-col justify-center gap-5 lg:gap-9">
         <Heading
           text1="Your journey into the"
           text2=" future starts now"

@@ -12,6 +12,7 @@ export default function Services() {
       <InfiniteSlider bg_text_style="bg-glass text-white" title="Charles-Kelly &nbsp;&nbsp;   X &nbsp; &nbsp;   Blossom &nbsp;&nbsp;  X &nbsp;&nbsp;  Gedoly"></InfiniteSlider>
       <ServicesInfo></ServicesInfo>
       <Journey></Journey>
+      <InfiniteSlider bg_text_style="bg-glass text-white " title="MAKING IT REAL! &nbsp;"></InfiniteSlider>
     </div>
   )
 }
