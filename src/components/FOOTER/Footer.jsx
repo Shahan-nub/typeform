@@ -4,6 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import Glow from "../ui/Glow";
 import Link from "next/link";
+import Button from "../ui/Button";
 
 export default function Footer() {
   return (
@@ -73,9 +74,7 @@ export default function Footer() {
           <h1 className="text-lg lg:text-xl font-medium lg:font-semibold text-white">
             Get in touch.
           </h1>
-          <div className="rounded-sm bg-color-1-dark text-white text-center px-3 lg:px-8 py-2 lg:py-3 text-nowrap text-xs lg:text-lg">
-            Contact us
-          </div>
+          <Button text="Contact us"/>
         </div>
       </div>
       <div className="flex w-[95%] items-center self-center justify-between border-t border-gray-700 py-3 lg:py-6  text-white">

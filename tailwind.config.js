@@ -33,7 +33,7 @@ module.exports = {
       },
       colors:{
         "glass":"#121525",
-        "color-1":"#6d77ed",
+        "color-1":"#4c5cf0",
         "color-2":"#ad4fa1",
         "color-3":"#aeafb0",
         "color-1-dark":"#4c5cf0",
