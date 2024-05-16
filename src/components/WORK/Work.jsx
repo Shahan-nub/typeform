@@ -5,7 +5,7 @@ import Glow from "../ui/Glow";
 
 export default function Work() {
   return (
-    <div className="my-20 flex flex-col w-full">
+    <div className="my-20 flex flex-col w-full" id="work">
       <WorkTitle></WorkTitle>
       <div className="w-full relative flex flex-wrap gap-8 justify-center px-6 md:px-16">
         <Glow pos="left-1/2 -translate-x-[50%]"></Glow>

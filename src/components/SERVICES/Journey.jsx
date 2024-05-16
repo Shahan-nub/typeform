@@ -14,7 +14,7 @@ export default function Journey() {
         whileInView={{y:500,opacity:[1,1,1,0]}}
         transition={{duration:1,delay:.3}}
         viewport={{once:true}}
-        className="absolute w-full h-full bg-color-1 rounded-lg">
+        className="absolute w-full h-full bg-color-2 rounded-lg">
         </motion.div>
         <Image
           src="/assets/Servicesvertical.png"
