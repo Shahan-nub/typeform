@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FaArrowRightLong } from "react-icons/fa6";
+import RotatingText from "../ui/RotatingText";
 
 export default function ServicesHero() {
   return (
@@ -14,19 +14,7 @@ export default function ServicesHero() {
         ></Image>
       </div>
 
-      <div className="absolute left-1/2 top-[70%] sm:top-[80%] lg:top-[85%] -translate-x-[50%] ">
-        <div className="relative">
-          <div className="absolute left-1/2 z-30 -translate-x-[50%] -translate-y-[50%] top-1/2 bg-color-1 rounded-full p-3 lg:p-6 text-white text-lg lg:text-2xl rotate-90">
-            <FaArrowRightLong></FaArrowRightLong>
-          </div>
-          <Image
-            src="/assets/rotatingText.png"
-            height={200}
-            width={200}
-            className="h-36 w-36 animate-infinite-rotate "
-          ></Image>
-        </div>
-      </div>
+      <RotatingText></RotatingText>
     </div>
   );
 }

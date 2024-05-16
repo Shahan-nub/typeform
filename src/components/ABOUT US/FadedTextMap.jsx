@@ -3,7 +3,7 @@ import Glow from "../ui/Glow";
 
 export default function FadedTextMap() {
   return (
-    <div className="flex flex-col w-full ">
+    <div className="flex flex-col w-full my-5 lg:my-16 ">
       <div className="w-full flex divide-x divide-opacity-20 divide-white ">
         <div className="flex basis-1/2 justify-center items-center">
           <FadedAndNormalText

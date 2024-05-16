@@ -3,6 +3,7 @@ import Heading from "../ui/Heading";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import AIServiceCard from "./AIServiceCard";
 import { AI_SERVICES } from "@/CONSTANTS/AiService";
+import ArrowDown from "../ui/ArrowDown";
 
 export default function AIService() {
   return (
@@ -11,8 +12,7 @@ export default function AIService() {
         text1="AI mastery, human harmony"
         text2="  designing tomorrow"
       ></Heading>
-      <MdKeyboardDoubleArrowDown className="text-xl lg:text-4xl text-white my-4 lg:my-7"></MdKeyboardDoubleArrowDown>
-
+      <ArrowDown></ArrowDown>
       <div className="flex flex-wrap lg:flex-nowrap w-full px-4 gap-5 lg:gap-7 items-center justify-center">
         {AI_SERVICES.map((obj) => {
             return(

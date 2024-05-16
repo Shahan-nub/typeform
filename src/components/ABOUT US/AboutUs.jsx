@@ -7,10 +7,14 @@ import { motion } from "framer-motion";
 import InfiniteSlider from "../ui/InfiniteSlider";
 import FadedAndNormalText from "../ui/FadedAndNormalText";
 import FadedTextMap from "./FadedTextMap";
+import AboutHero from "./AboutHero";
+import AboutHeroTitle from "./AboutHeroTitle";
 
 export default function AboutUs() {
   return (
     <div className="w-full relative flex flex-col gap-6 py-8">
+      <AboutHeroTitle></AboutHeroTitle>
+      <AboutHero></AboutHero>
       <WhatWeDo></WhatWeDo>
       <div className="flex flex-col lg:flex-row justify-between w-full gap-24 px-4 lg:px-10">
         <AboutUsTitle></AboutUsTitle>
