@@ -1,0 +1,17 @@
+export const AI_SERVICES=[
+    {id:0,
+        src:"/assets/leaf.jpg",
+        date:"Oct 18, 2023",
+        title:"Where possibilities become realities.",
+    },
+    {id:1,
+        src:"/assets/planet.webp",
+        date:"Nov 13, 2022",
+        title:"Revolutionizing realities AI with vision.",
+    },
+    {id:2,
+        src:"/assets/city.jpg",
+        date:"Aug 28, 2022",
+        title:"Revolutionizing realities AI with vision.",
+    },
+]

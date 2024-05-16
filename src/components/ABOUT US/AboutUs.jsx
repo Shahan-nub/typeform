@@ -5,6 +5,8 @@ import AboutUsTitle from "./AboutUsTitle";
 import Image from "next/image";
 import { motion } from "framer-motion";
 import InfiniteSlider from "../ui/InfiniteSlider";
+import FadedAndNormalText from "../ui/FadedAndNormalText";
+import FadedTextMap from "./FadedTextMap";
 
 export default function AboutUs() {
   return (
@@ -33,6 +35,7 @@ export default function AboutUs() {
         </motion.div>
       </div>
       <InfiniteSlider title="NEXT GEN SMART AI" bg_text_style="text-white bg-glass"></InfiniteSlider>
+      <FadedTextMap></FadedTextMap>
     </div>
   );
 }

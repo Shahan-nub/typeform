@@ -9,7 +9,7 @@ import Button from "../ui/Button";
 export default function Footer() {
   return (
     <div className="flex flex-col w-full  bg-gradient-to-r from-glass via-[#1c1f2f] to-glass">
-      <div className="w-full relative font-sans  py-10 lg:py-20 flex justify-between lg:justify-normal gap-6 lg:gap-40  px-3 lg:px-6 text-xs lg:text-lg">
+      <div className="w-full relative font-sans  py-10 lg:py-20 flex justify-between lg:justify-normal gap-6 xl:gap-40 lg:gap-20 px-3 lg:px-6 text-xs lg:text-lg">
         <Glow pos="right-[10%] top-[35%]"></Glow>
 
         <div className=" flex flex-col justify-between gap-6 lg:gap-16 ">
