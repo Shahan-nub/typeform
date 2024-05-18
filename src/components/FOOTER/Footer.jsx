@@ -38,13 +38,13 @@ export default function Footer() {
             </p>
             <p>+91, India</p>
             <h4 className="text-white">9113781424</h4>
-            <p className="hover:text-color-1 hidden lg:inline-block">
+            <p className="hover:text-color-1 hidden md:inline-block">
               shahananwer786@gmail.com
             </p>
           </div>
         </div>
 
-        <div className="hidden lg:flex flex-col gap-6 lg:gap-16 text-color-3">
+        <div className="hidden md:flex flex-col gap-6 lg:gap-16 text-color-3">
           <h1 className="text-lg lg:text-xl font-medium lg:font-semibold text-white">
             Explore
           </h1>
