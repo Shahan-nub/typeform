@@ -25,7 +25,12 @@ export default function Journey() {
         ></Image>
       </div>
 
-      <div className="lg:basis-[45%] px-10 lg:px-0 flex flex-col justify-center gap-5 lg:gap-9">
+      <motion.div 
+      initial={{y:300,opacity:0}}
+      whileInView={{y:0,opacity:1}}
+      transition={{duration:.5,delay:.2}}
+      viewport={{once:true}}
+      className="lg:basis-[45%] px-10 lg:px-0 flex flex-col justify-center gap-5 lg:gap-9">
         <Heading
           text1="Your journey into the"
           text2=" future starts now"
@@ -42,7 +47,7 @@ export default function Journey() {
         <div className="w-max">
           <Button text="Get started"></Button>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

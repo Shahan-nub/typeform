@@ -10,7 +10,7 @@ export default function ServicesHero() {
           height={1500}
           width={2000}
           alt="nig--"
-          className="overflow-clip max-w-[100%] hover:scale-105 transition-all duration-[1s] rounded-lg h-auto xl:h-screen"
+          className="overflow-clip max-w-[100%] hover:scale-110 transition-all duration-[1s] rounded-lg h-auto xl:h-screen"
         ></Image>
       </div>
 

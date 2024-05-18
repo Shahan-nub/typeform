@@ -1,6 +1,4 @@
-import React from "react";
 import Heading from "../ui/Heading";
-import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import AIServiceCard from "./AIServiceCard";
 import { AI_SERVICES } from "@/CONSTANTS/AiService";
 import ArrowDown from "../ui/ArrowDown";
